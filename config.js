@@ -10,15 +10,15 @@ class ConfigManager {
     load() {
         if (!fs.existsSync(this.configPath)) {
             this.config = {
-                ownerNumber: '243833389567',
-                ownerJid: '243833389567@s.whatsapp.net',
-                botName: 'ShadowCrew',
+                ownerNumber: '22897671765',
+                ownerJid: '22897671765@s.whatsapp.net',
+                botName: 'Tochirobot',
                 prefix: '!',
                 sessionDir: 'sessionData',
                 mode: 'public',
                 antiSpam: true,
                 cooldown: 3,
-                timezone: 'Africa/Kinshasa',
+                timezone: 'Africa/Lomé',
                 mongodbUri: '',
                 logLevel: 'info',
                 statusForward: true
